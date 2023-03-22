@@ -1,22 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img class="page-image" alt="Vue logo" src="https://www.pngmart.com/files/21/Administration-Download-PNG-Image.png">
+    <Management msg="Management of analytics file data"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Management from './components/Management.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Management
   }
 }
 </script>
 
 <style>
+.page-image {
+  width: auto;
+  height: 200px;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
